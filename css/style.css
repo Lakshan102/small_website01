@@ -1,0 +1,150 @@
+:root{
+    --font:"Oswald";
+    
+}
+/*-------------------------------------------------
+                     nav bar
+-------------------------------------------------*/
+.navbar-dark{
+    background-color: #000 !important;
+    border: 5px solid;
+    color: white;
+}
+.navbar-nav{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/*-------------------------------------------------
+                     text
+-------------------------------------------------*/
+.text{
+   font-family: var(--font); 
+}
+/*-------------------------------------------------
+                    button
+-------------------------------------------------*/
+.btn-primary{
+    background-color: rgb(0, 38, 255) !important;
+    margin-left:20px ;
+    margin-top: 5px;
+}
+.btn-primary:hover{
+    background-color: rgb(167, 170, 238) !important;
+}
+#b1{
+    position: relative;
+    left: 45%;
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px black solid;
+    background-color: blueviolet;
+    margin-bottom: 40px;
+}
+#b1:hover{
+    background-color: aqua;
+}
+/*-------------------------------------------------
+                    hero
+-------------------------------------------------*/
+#hero{
+    background-image: url("../img/img.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-text{
+    padding-top: 300px;
+    font-weight: 600;
+    font-size: 400%;
+    color: rgb(235, 56, 25);
+}
+
+h1{
+    text-align: center;
+    padding-top: 50px ;
+}
+/*-------------------------------------------------
+                    footer
+-------------------------------------------------*/
+#footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 0 !important;
+}
+.icon1{
+    color: antiquewhite;
+}
+.fa{
+    font-size: 10px;
+}
+/*-------------------------------------------------
+                    footer
+-------------------------------------------------*/
+#acc{
+    padding-top: 15px;
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: wheat solid;
+    border-radius: 20px;
+    background-color: lightgray;
+    text-align: center;
+}
+/*-------------------------------------------------
+                    table
+-------------------------------------------------*/
+.tb{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: beige;
+}
+.head-tb{
+    background-color: #000;
+    color: white;
+}
+#mem{
+    border-collapse: collapse;
+    width: 500px;
+    margin: auto;
+}
+#mem td,#mem th{
+    border: 1px solid ;
+    padding: 10px;
+}
+#mem tr:nth-child(even){
+    background-color: lightgray;
+}
+#mem tr:hover{
+    background-color: gray;
+}
+#mem th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    
+}
+/*-------------------------------------------------
+                    sign up
+-------------------------------------------------*/
+#signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: auto;
+    border: #000 solid;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    padding: bottom 50px;
+    font-weight: 600;
+}
+
