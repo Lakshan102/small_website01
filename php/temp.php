@@ -4,7 +4,7 @@
     <?php require_once('../php/header.php'); ?>
 </head>
 <body class="text">
-    <div style="padding-top: 120px; padding-bottom: 120px">
+    <div style="padding-top: 120px;">
         <div id="signup">
             <img src="../img/non.png" alt="logo" style="width: 200px; height:75px">
             <form >
