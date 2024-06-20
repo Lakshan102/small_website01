@@ -131,17 +131,5 @@ h1{
     text-align: center;
     
 }
-/*-------------------------------------------------
-                    sign up
--------------------------------------------------*/
-#signup{
-    width: auto;
-    height: 1000px;
-    border: #000 solid;
-    border-radius: 20px;
-    margin: auto;
-    text-align: center;
-    padding: bottom 50px;
-    font-weight: 600;
-}
+
 

@@ -25,7 +25,18 @@
                 </li>
                 <li class="nav-item ms-3">
                     <a class="nav-link" href="#">Other</a>
+                    
                 </li>
+                
+                    <?php 
+                        if(isset($_SESSION["username"])){
+                            echo '<li class="nav-item ms-3" ><a  class="nav-link" href="profile.php">'.$_SESSION["username"].'</a></li>';
+                            echo '<li class="nav-item ms-3" ><a  class="nav-link" href="../include/logout.inc.php">LOGOUT</a></li>';
+                        }else{
+                            echo '<li class="nav-item ms-3" ><a class="nav-link" href="login.php">LOGIN</a></li>';
+                        }
+                    ?>
+                
                 
                 
                 
